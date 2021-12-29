@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Area from '../components/Area';
+import RichTextEditor from '../components/rte/RichTextEditor';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Area />
+      <RichTextEditor />
     </div>
   );
 }
